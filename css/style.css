@@ -1,0 +1,13 @@
+.test
+{
+    background-color: black; /* Le fond de la page sera noir */
+    color: white; /* Le texte de la page sera blanc */
+	margin-right: 500px;
+	margin-left: 500px;
+}
+
+.col-size {
+  width: 100%;
+  padding: 100% 0 0 0 !important;
+  background: #e4087e;
+}
