@@ -1,26 +1,390 @@
-.rectangle_titre
+.rectangle_title
 {
     background-color: #4A617C;
     color: white;
-	height:300px;
-	margin-right: 0px;
-	margin-left: 0px;
+	height:320px;
+	box-shadow: 1px 1px 5px #555;
+	margin-left: auto; 
+	margin-right: auto;
 }
 
-.texte_titre
+.text_title
 {
 	font-size : large;
 	font-family : arial;
 	text-align : center;
+ 	padding:40px;
 }
 
-.rond_titre
+.round_photo
 {
-	width:200px;
-	height:200px;
-	background:#DEDEDE;
-	-webkit-border-radius:100px;
-	-moz-border-radius:100px;
-	-o-border-radius:100px;
-	border-radius:100px;
+	position: relative;
+	width: 210px;
+    height: 210px;
+    border-radius: 200px;
+    background-color: #FFFFFF;
+    margin-top:5px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 12px #555;
+}
+
+.picture_photo
+{
+	padding-top:5px;
+	width: 200px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rectangle_presentation
+{
+    background-color: #F3F3F3;
+    color: black;
+	height:480px;
+	width:1200px;
+	margin-top:10px;
+	box-shadow: 1px 1px 5px #555;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.title_presentation
+{
+	font-size : large;
+	font-family : arial;
+	text-align : center;
+ 	padding-top:130px;
+}
+
+.text_presentation
+{
+	font-size : large;
+	font-family : arial;
+	text-align : center;
+	margin-top:10px;
+}
+
+.button_download
+{
+	margin-top:70px;
+	margin-left:auto; 
+	margin-right:auto;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.button
+{
+	background-color: #4A617C;
+	color: white;
+	padding: 15px;
+	text-align: center;
+	text-decoration: none;
+	font-size : large;
+	font-family : arial;
+	text-align : center;
+	box-shadow: 1px 1px 5px #555;
+	padding-left:40px;
+	padding-right:40px;
+}
+
+.text_activites_professionelles
+{
+	font-size : large;
+	font-family : arial;
+	text-align : center;
+  	margin:auto;
+  	margin-top: 50px;
+}
+
+.stick_activites_professionelles
+{
+	position: relative;
+    background-color: #4A617C;
+	width:3px;
+	height:620px;
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+.round_activites_professionelles
+{
+	width: 25px;
+    height: 25px;
+    border-radius: 200px;
+    background-color: #4A617C;
+    margin-top:74px;
+    margin-left:auto; 
+	margin-right:auto;
+}
+
+.stages
+{
+    position: relative;
+}
+
+.stage_top_1
+{
+	background-color: #4A617C;
+    color: black;
+	height:25px;
+	width:538px;
+	margin-left:12px;
+}
+
+.stage_1
+{
+	background-color: #F3F3F3;
+    color: black;
+    padding:10px;
+	height:80px;
+	width:480px;
+	margin-left:50px;
+	position: absolute;
+}
+
+.stage_top_2
+{
+	background-color: #4A617C;
+    color: black;
+	height:25px;
+	width:538px;
+	margin-left:12px;
+	position: relative;
+    margin:10px auto 0;
+    right:525px;
+}
+
+.stage_2
+{
+	background-color: #F3F3F3;
+    color: black;
+    padding:10px;
+	height:80px;
+	width:480px;
+	position: relative;
+    right:525px;
+}
+
+.text_formations
+{
+	font-size : large;
+	font-family : arial;
+	text-align : center;
+  	margin:auto;
+  	margin-top: 180px;
+}
+
+.stick_formations
+{
+	position: relative;
+    background-color: #4A617C;
+	width:3px;
+	height:320px;
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+.text_diplomes
+{
+	font-size : large;
+	font-family : arial;
+	text-align : center;
+  	margin-top: 180px;
+}
+
+.diplomes
+{
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+.rectangle_diplomes
+{
+    background-color: #F3F3F3;
+    color: black;
+	height:415px;
+	width:1200px;
+	margin-top:70px;
+	box-shadow: 1px 1px 5px #555;
+	margin-left: auto;
+    margin-right: auto;
+    padding-top:65px;
+}
+
+.diplome_1
+{
+    background-color: #4A617C;
+    color: white;
+	height:140px;
+	width:500px;
+	box-shadow: 1px 1px 5px #555;
+    position: relative;
+    right:65px;
+    float: right;
+
+}
+
+.diplome_2
+{
+    background-color: #4A617C;
+    color: white;
+	height:140px;
+	width:500px;
+	box-shadow: 1px 1px 5px #555;
+    position: relative;
+    left:65px;
+    float: left;
+}
+
+.diplome_3
+{
+    background-color: #4A617C;
+    color: white;
+	height:140px;
+	width:500px;
+	box-shadow: 1px 1px 5px #555;
+    position: relative;
+    right:65px;
+    float: right;
+    margin-top:65px;
+
+}
+
+.diplome_4
+{
+    background-color: #4A617C;
+    color: white;
+	height:140px;
+	width:500px;
+	box-shadow: 1px 1px 5px #555;
+    position: relative;
+    left:65px;
+    float: left;
+    margin-top:65px;
+}
+
+.text_diplome
+{
+	font-size : x-large;
+	font-family : arial;
+	text-align : center;
+	padding:40px;
+}
+
+.text_centre_interet
+{
+	font-size : large;
+	font-family : arial;
+	text-align : center;
+  	margin-top: 60px;
+}
+
+.rectangle_centre_interet
+{
+    background-color: #F3F3F3;
+    color: black;
+	height:615px;
+	width:1200px;
+	margin-top:80px;
+	box-shadow: 1px 1px 5px #555;
+	margin-left: auto;
+    margin-right: auto;
+    padding-top:65px;
+}
+
+.centre_interet_1
+{
+    background-color: #4A617C;
+    color: white;
+	height:140px;
+	width:500px;
+	box-shadow: 1px 1px 5px #555;
+    position: relative;
+    right:65px;
+    float: right;
+
+}
+
+.centre_interet_2
+{
+    background-color: #4A617C;
+    color: white;
+	height:140px;
+	width:500px;
+	box-shadow: 1px 1px 5px #555;
+    position: relative;
+    left:65px;
+    float: left;
+}
+
+.centre_interet_3
+{
+    background-color: #4A617C;
+    color: white;
+	height:140px;
+	width:500px;
+	box-shadow: 1px 1px 5px #555;
+    position: relative;
+    right:65px;
+    float: right;
+    margin-top:65px;
+
+}
+
+.centre_interet_4
+{
+    background-color: #4A617C;
+    color: white;
+	height:140px;
+	width:500px;
+	box-shadow: 1px 1px 5px #555;
+    position: relative;
+    left:65px;
+    float: left;
+    margin-top:65px;
+}
+
+.centre_interet_5
+{
+    background-color: #4A617C;
+    color: white;
+	height:140px;
+	width:500px;
+	box-shadow: 1px 1px 5px #555;
+    position: relative;
+    left:65px;
+    float: left;
+    margin-top:65px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.text_centre_interet_1
+{
+	font-size : x-large;
+	font-family : arial;
+	text-align : center;
+	margin-top: 50px;
+}
+
+.text_centre_interet_2
+{
+	font-size : x-large;
+	font-family : arial;
+	text-align : center;
+	margin-top: 40px;
+}
+
+.rectangle_end
+{
+    background-color: #4A617C;
+    color: white;
+	height:320px;
+	box-shadow: 1px 1px 5px #555;
+	margin-left: auto; 
+	margin-right: auto;
+	margin-top:10px;
 }
