@@ -17,7 +17,7 @@
 	font-size : large;
 	font-family : arial;
 	text-align : center;
- 	padding:40px;
+	padding-top:50px;
 }
 
 /*Photo entre le header et le Profil*/
@@ -29,10 +29,25 @@
     height: 210px;
     border-radius: 200px;
     background-color: #FFFFFF;
-    margin-top:5px;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 1px 1px 12px #555;
+    margin-top:35px;
+}
+
+.zoom
+{
+  	overflow:hidden;
+  	height: 300px;
+  	width:300px;
+    margin-left: auto;
+    margin-right: auto;
+    transition:0.5s;
+}
+
+.zoom:hover
+{
+	transform : scale(1.2);
 }
 
 .picture_photo
@@ -50,8 +65,7 @@
 {
     background-color: #F3F3F3;
     color: black;
-	height:480px;
-	width:1200px;
+	width:52%;
 	margin-top:10px;
 	box-shadow: 1px 1px 5px #555;
 	margin-left: auto;
@@ -82,11 +96,8 @@
 
 .button_download
 {
-	margin-top:70px;
-	margin-left:auto; 
-	margin-right:auto;
-	margin-left: auto;
-    margin-right: auto;
+	padding-top:70px; 
+	padding-bottom:70px;
 }
 
 .button
