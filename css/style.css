@@ -403,7 +403,7 @@
 	font-size : x-large;
 	font-family : arial;
 	text-align : center;
-	margin-top: 50px;
+	padding-top:50px;
 }
 
 .text_centre_interet_2
@@ -411,7 +411,7 @@
 	font-size : x-large;
 	font-family : arial;
 	text-align : center;
-	margin-top: 40px;
+	padding-top: 40px;
 }
 
 /*Footer*/
