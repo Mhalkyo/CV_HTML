@@ -1,3 +1,7 @@
+/*CV réaliser en HTML CSS*/
+
+/*Header*/
+
 .rectangle_title
 {
     background-color: #4A617C;
@@ -15,6 +19,8 @@
 	text-align : center;
  	padding:40px;
 }
+
+/*Photo entre le header et le Profil*/
 
 .round_photo
 {
@@ -38,6 +44,8 @@
     margin-right: auto;
 }
 
+/*Profil*/
+
 .rectangle_presentation
 {
     background-color: #F3F3F3;
@@ -50,6 +58,8 @@
     margin-right: auto;
 }
 
+/*Titre Profil*/
+
 .title_presentation
 {
 	font-size : large;
@@ -58,6 +68,8 @@
  	padding-top:130px;
 }
 
+/*Description de mon Profil*/
+
 .text_presentation
 {
 	font-size : large;
@@ -65,6 +77,8 @@
 	text-align : center;
 	margin-top:10px;
 }
+
+/*Bouton pour mon CV papier*/
 
 .button_download
 {
@@ -90,6 +104,8 @@
 	padding-right:40px;
 }
 
+/*Activité Professionnelles*/
+
 .text_activites_professionelles
 {
 	font-size : large;
@@ -98,6 +114,8 @@
   	margin:auto;
   	margin-top: 50px;
 }
+
+/*Arbre de l'Activité*/
 
 .stick_activites_professionelles
 {
@@ -120,10 +138,7 @@
 	margin-right:auto;
 }
 
-.stages
-{
-    position: relative;
-}
+/*Cadres des Stages et Formations "droite"*/
 
 .stage_top_1
 {
@@ -142,8 +157,12 @@
 	height:80px;
 	width:480px;
 	margin-left:50px;
+	font-size : large;
+	font-family : arial;
 	position: absolute;
 }
+
+/*Cadres des Stages et Formations "gauches"*/
 
 .stage_top_2
 {
@@ -166,7 +185,11 @@
 	width:480px;
 	position: relative;
     right:525px;
+    font-size : large;
+	font-family : arial;
 }
+
+/*Formations*/
 
 .text_formations
 {
@@ -176,6 +199,8 @@
   	margin:auto;
   	margin-top: 180px;
 }
+
+/*Arbre Formations*/
 
 .stick_formations
 {
@@ -187,6 +212,8 @@
 	margin-right:auto;
 }
 
+/*Diplômes*/
+
 .text_diplomes
 {
 	font-size : large;
@@ -195,11 +222,7 @@
   	margin-top: 180px;
 }
 
-.diplomes
-{
-	margin-left:auto; 
-	margin-right:auto;
-}
+/*Cadres Diplomes et textes*/
 
 .rectangle_diplomes
 {
@@ -274,6 +297,8 @@
 	padding:40px;
 }
 
+/*Centre d'Intérêt*/
+
 .text_centre_interet
 {
 	font-size : large;
@@ -281,6 +306,8 @@
 	text-align : center;
   	margin-top: 60px;
 }
+
+/*Cadres Centre d'Intérêt et texte*/
 
 .rectangle_centre_interet
 {
@@ -355,9 +382,7 @@
 	width:500px;
 	box-shadow: 1px 1px 5px #555;
     position: relative;
-    left:65px;
-    float: left;
-    margin-top:65px;
+    margin-top:410px;
 	margin-left: auto;
     margin-right: auto;
 }
@@ -377,6 +402,8 @@
 	text-align : center;
 	margin-top: 40px;
 }
+
+/*Footer*/
 
 .rectangle_end
 {
